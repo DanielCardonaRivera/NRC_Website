@@ -1,0 +1,348 @@
+/*POLITECNICO GRANCOLOMBNIANO
+/*Anderson Daniel Cardona Rivera
+/*Archivo de estilos de nrcwebsite
+
+
+/*letra importada de Google fonts*/
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/*Estilos del menu*/
+
+header{
+  
+  .menu {
+    font-family:"Questrial", sans-serif;;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f181;
+
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+
+  }
+  
+  .menu ul li a:hover {
+    color: #e9ebbd;
+  }
+}
+
+/*Estilos de la página 1 (pagina de inicio)*/
+
+.pagina1{
+  padding: 20px;
+    background-color: #f9f9f9; 
+  h1{
+    font-family: "Questrial", sans-serif;
+    font-size: clamp(5rem, 20vw, 20vh);
+    line-height: 1;
+    background-color: rgb(250, 248, 245);
+  }
+  h2{
+    font-family: "Tangerine", sans-serif;
+  }
+  
+.imagenes {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 20px 0;
+}
+
+.imagenes img {
+  max-width: 30%;
+  height: auto; 
+  margin: 10px; 
+  border-radius: 8px; 
+  margin: 20px 0; 
+
+}
+
+
+@media (max-width: 768px) {
+  .imagenes img {
+      max-width: 100%; 
+  }
+}
+  }
+
+
+  /* Estilos para la sección de Novias */
+  .pagina2 {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+
+    h2{
+      font-family: "Tangerine", cursive;
+    }
+    h3 {
+      font-size: 32px; 
+      margin-bottom: 20px; 
+      font-family: "Questrial", sans-serif;}
+        
+  }
+ 
+
+
+
+h3 {
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
+  
+  .imagenesNovias {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 20px 0;
+  }
+  
+  .imagenesNovias img {
+    max-width: calc(25% - 20px);
+    height: auto; 
+    margin: 10px; 
+    border-radius: 8px; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .imagenesNovias img {
+        max-width: 100%; 
+    }
+  }
+
+  /* Estilos para la sección de Vestidos de gala */
+  .pagina3 {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+    h2{
+      font-family: "Tangerine", cursive;
+    }
+    h3 {
+      font-size: 32px; 
+      margin-bottom: 20px; 
+      font-family: "Questrial", sans-serif;
+
+  }
+  
+  h3 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+  }
+    
+  }
+  
+  .imagenesGala {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+  }
+  
+  .imagenesGala img {
+    max-width: calc(25% - 20px); 
+    height: auto; 
+    margin: 10px; 
+    border-radius: 8px; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .imagenesGala img {
+        max-width: 100%; 
+    }
+  }
+
+/* Estilos para la sección de Vestidos de gala Infantil */
+.pagina4 {
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  text-align: center; 
+  h2{
+    font-family: "Tangerine", cursive;
+  }
+  h3 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    font-family: "Questrial", sans-serif;
+
+}
+
+h3 {
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
+  
+}
+
+.imagenesGalaInfantil {
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0; 
+}
+
+.imagenesGalaInfantil img {
+  max-width: calc(25% - 20px); 
+  height: auto;
+  margin: 10px; 
+  border-radius: 8px; 
+}
+
+
+@media (max-width: 768px) {
+  .imagenesGalaInfantil img {
+      max-width: 100%; 
+  }
+
+}
+.pagina6{
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 20px 0; 
+}
+img#9{
+  border-radius: 5%;
+}
+p{
+  font-size: 32px; 
+  margin-bottom: 20px; 
+  font-family: "Tangerine";
+
+}
+    /*Estilos de footer*/
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #f1f1f1;
+      padding: 10px 0;
+      font-size: 1rem;
+      font-family: "Tangerine";
+      z-index: 1000;
+    }
+
+    form {
+      max-width: 600px; 
+      margin: 20px auto; 
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+
+    }
+
+    /* Estilo para los elementos de la lista del formulario */
+ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  margin-bottom: 15px; 
+}
+
+/* Estilo de etiquetas */
+label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+
+textarea {
+  height: 100px; 
+}
+
+/* Estilo de los botones */
+button {
+  background-color:  #b2a17c; 
+  color: rgb(0, 0, 0); 
+  border: none; 
+  padding: 10px 15px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  font-family: "Questrial", sans-serif;
+}
+
+
+button:hover {
+  background-color: #b2a17c; 
+}
+
+
+@media (max-width: 768px) {
+  form {
+      padding: 15px; 
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+      padding: 8px; 
+  }
+
+  button {
+      width: 100%; 
+  }
+
+  a{
+    color: #000;
+  }
+  
+}

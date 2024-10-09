@@ -1,0 +1,265 @@
+<!--
+POLITECNICO GRANCOLOMBIANO
+Front End
+Anderson Daniel Cardona Rivera
+Archivo de HTML y scripts de formularios de nrcwebsite (Empresa de vestidos de novia y de gala)
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>nrcfashion</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--fuentes Raleway y Tangerine-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+        <!-- Enlaces a secciones de la página -->
+        <nav class="menu"> <!--links internos de secciones-->
+            <ul>
+                <li><a href="#INICIO">INICIO</a></li>
+                <li><a href="#SERVICIOS">SERVICIOS</a></li>
+                <li><a href="#CONTACTO">CONTACTO</a></li>
+                <li><a href="#CLIENTES">CLIENTES</a></li>
+                <li><a href="#LOGIN">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Pagina 1- página de inicio-->
+    <section class="pagina1" ID="INICIO">
+
+        <!-- Títulos pagina 1-->
+        <h1>NRc</h1>
+        <h2>Wedding Dresses</h2>
+
+        <!-- Imágenes pagina 1-->
+        <div class="imagenes">
+            <img id="1" src="Imagenes/Inicio1.JPG">
+            <img id="2" src="Imagenes/Inicio2.JPG">
+            <img id="3" src="Imagenes/Inicio3.JPG">
+
+        </div>
+
+
+
+        <!--Página 2 servicio de novias-->
+
+        <section class="pagina2" ID="SERVICIOS">
+
+            <h3>SERVICIOS</h3>
+            <h2>Novias</h2>
+
+            <div class="imagenesNovias">
+                <img id="4" src="Imagenes/Novias1.JPG">
+                <img id="5" src="Imagenes/Novias2.JPG">
+                <img id="6" src="Imagenes/Novias3.JPG">
+                <img id="7" src="Imagenes/Novias4.JPG">
+            </div>
+
+            <!--Página 3 Servicio de vestidos de gala-->
+            <section class="pagina3">
+
+                <h3>SERVICIOS</h3>
+                <h2>Vestidos de gala</h2>
+
+                <div class="imagenesGala">
+                    <img id="8" src="Imagenes/Gala1.JPG">
+                    <img id="9" src="Imagenes/Gala2.JPG">
+                    <img id="10" src="Imagenes/Gala3.JPG">
+                    <img id="11" src="Imagenes/Gala4.JPG">
+                </div>
+
+
+
+
+            </section>
+
+            <!--Página 4 Servicio de gala infantil-->
+            <section class="pagina4">
+
+                <h3>SERVICIOS</h3>
+                <h2>Vestidos de gala infantil</h2>
+
+                <div class="imagenesGalaInfantil">
+                    <img id="8" src="Imagenes/GalaInfantil1.JPG">
+                    <img id="9" src="Imagenes/GalaInfantil2.JPG">
+                    <img id="10" src="Imagenes/GalaInfantil3.JPG">
+                    <img id="11" src="Imagenes/GalaInfantil4.JPG">
+                </div>
+
+
+            </section>
+
+            <!--Pagina 5 de contacto-->
+            <section class="pagina5" ID="CONTACTO">
+
+                <h3>CONTACTO</h3>
+                <h1><a href="#INICIO" style="color: black;">NRc</a></h1>
+                <h2>Wedding Dresses</h2>
+                <!--Links de Contacto-->
+                <a href="#">3006402298</a>
+                <a href="#">nrcweddingdress</a>
+
+                <!--Formulario de contacto-->
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">E-MAIL</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </li>
+                        <li>
+                            <label for="mail">TELÉFONO</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </li>
+
+                        <li>
+                            <label for="comentarios">COMENTARIOS</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul>
+                </form>
+
+
+
+            </section>
+            <!--Pagina 6 Clientes-->
+            <section class="pagina6" ID="CLIENTES">
+
+                <div>
+                    <h3>CLIENTES</h3>
+                    <h2>Karen y Victor</h2>
+                    <p>"El vestido soñado, sin su ayuda nada de esto habría sido tan mágico.
+                        Los recomiendo demasiado, la puntualidad, el rigor y el profesionalismo que tienen no tienen
+                        comparación."</p>
+                </div>
+                <img id="9" src="Imagenes/Clientes1.JPG">
+            </section>
+
+            <!-- Página 7 Login y registro-->
+            <section class="pagina7" ID="LOGIN">
+
+                <h1><a href="#INICIO" style="color: black;">NRc</a></h1>
+                <h2>Wedding Dresses</h2>
+
+                <!--Formulario de registro-->
+                <form action="/my-handling-form-page" method="post">
+                    <h3>REGISTRATE</h3>
+
+                    <ul>
+                        <li>
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">E-MAIL</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </li>
+                        <li>
+                            <label for="mail">CONTRASEÑA</label>
+                            <input type="password" id="contraseña" name="user_mail" />
+                        </li>
+                    </ul>
+                    <button>REGISTRARME</button>
+
+                </form>
+                <!--Formulario de login-->
+                <h3>LOGIN</h3>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="mail">E-MAIL</label>
+                            <input type="email" id="mail" name="user_mail" />
+                        </li>
+                        <li>
+                            <label for="mail">CONTRASEÑA</label>
+                            <input type="password" id="contraseña" name="user_mail" />
+                        </li>
+                    </ul>
+                    <button>LOGIN</button>
+                </form>
+
+                <footer>
+                    <h4>Todos los derechos reservados</h4>
+                    <h4>2024</h4>
+                </footer>
+            </section>
+
+            <!--Fin de las secciones-->
+
+            <!--funciones en javascript-->
+            <!--Formularios-->
+            <script>
+                // Validacion formulario de contacto
+                document.querySelector('.pagina5 form').addEventListener('submit', function (event) {
+                    event.preventDefault();  // Evita el envío del formulario
+
+                    let nombre = document.getElementById('name').value;
+                    let email = document.getElementById('mail').value;
+                    let comentarios = document.getElementById('msg').value;
+
+                    if (nombre === '' || email === '' ||  comentarios === '') {
+                        alert('¡Completa todos los datos de contacto!');
+                    } else {
+                        alert('¡ Gracias, nos pondremo en contacto contigo, ' + nombre + '!');
+                
+                    }
+                });
+
+                // Validacion formulario de registro
+                document.querySelector('.pagina7 form').addEventListener('submit', function (event) {
+                    event.preventDefault();  // Evita ael envío del formulario
+
+                    let nombre = document.getElementById('name').value;
+                    let email = document.getElementById('mail').value;
+                    let contraseña = document.getElementById('contraseña').value;
+
+                    if (nombre === '' || email === '' || contraseña === '') {
+                        alert('¡Completa todos los datos de registro!');
+                    } else {
+                        alert('¡Gracias por registrarte, ' + nombre + '!');
+                        
+                    }
+                });
+
+                // Validación formulario de login
+                document.querySelector('.pagina7 form').addEventListener('submit', function (event) {
+                    event.preventDefault();  // Evita el envío del formulario
+
+                    let email = document.getElementById('mail').value;
+                    let contraseña = document.getElementById('contraseña').value;
+
+                    if (email === '' || contraseña === '') {
+                        alert('¡Completa todos los campos de acceso!');
+                    } else {
+                        alert('¡BIENVENIDO!');
+                       
+                        
+                    }
+                });
+
+
+            </script>
+
+
+</body>
+
+</html>
