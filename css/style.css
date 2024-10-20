@@ -233,6 +233,7 @@ h3 {
   }
 
 }
+/*Estilos para la sección de clientes*/
 .pagina6{
   display: flex; 
   justify-content: center; 
@@ -245,10 +246,10 @@ p{
   font-family: "Tangerine";
 
 }
-
+}
 /*Estilos para la sección de clientes*/
 
-.ImagenClientes img {
+.ImagenClientes {
   display: flex; 
   justify-content: center; 
   flex-wrap: wrap; 
