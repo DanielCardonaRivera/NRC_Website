@@ -248,7 +248,7 @@ p{
 
 /*Estilos para la sección de clientes*/
 
-.ImagenClientes {
+.ImagenClientes img {
   display: flex; 
   justify-content: center; 
   flex-wrap: wrap; 
