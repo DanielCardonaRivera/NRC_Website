@@ -238,7 +238,7 @@ h3 {
   justify-content: center; 
   flex-wrap: wrap; 
   margin: 20px 0; 
-}
+
 p{
   font-size: 32px; 
   margin-bottom: 20px; 
@@ -263,7 +263,7 @@ p{
   margin: 20px 0; 
 
 }
-
+}
 
 @media (max-width: 768px) {
   .ImagenClientes img {
