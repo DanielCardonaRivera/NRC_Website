@@ -245,6 +245,34 @@ p{
   font-family: "Tangerine";
 
 }
+
+/*Estilos para la sección de clientes*/
+
+.ImagenClientes {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 20px 0;
+}
+
+.ImagenClientes img {
+  max-width: 30%;
+  height: auto; 
+  margin: 10px; 
+  border-radius: 5%;
+  margin: 20px 0; 
+
+}
+
+
+@media (max-width: 768px) {
+  .ImagenClientes img {
+      max-width: 100%; 
+  }
+}
+
+
+
     /*Estilos de footer*/
     footer {
       position: fixed;
@@ -341,27 +369,4 @@ button:hover {
   }
   
 }
-/*Estilos para la sección de clientes*/
 
-.ImagenClientes {
-  display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-  margin: 20px 0;
-}
-
-.ImagenClientes img {
-  max-width: 30%;
-  height: auto; 
-  margin: 10px; 
-  border-radius: 5%;
-  margin: 20px 0; 
-
-}
-
-
-@media (max-width: 768px) {
-  .ImagenClientes img {
-      max-width: 100%; 
-  }
-}
