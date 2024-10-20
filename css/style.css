@@ -242,36 +242,34 @@ h3 {
 
 p{
   font-size: 32px; 
-  margin-bottom: 20px; 
   font-family: "Tangerine";
+  margin-bottom: 20px; 
 
 }
 }
-/*Estilos para la sección de clientes*/
+/*Estilos para imágenes de clientes*/
 
-.ImagenClientes {
+.imagenClientes {
   display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-  margin: 20px 0;
-}
-
-.ImagenClientes {
-  max-width: 30%;
-  height: auto; 
-  margin: 10px; 
-  border-radius: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 20px 0; 
+}
 
+.imagenClientes img {
+  max-width: calc(25% - 20px); 
+  height: auto;
+  margin: 10px; 
+  border-radius: 8px; 
 }
-}
+
 
 @media (max-width: 768px) {
-  .ImagenClientes {
+  .imagenClientes img {
       max-width: 100%; 
   }
-}
 
+}
 
 
     /*Estilos de footer*/
