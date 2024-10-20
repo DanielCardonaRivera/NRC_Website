@@ -256,7 +256,7 @@ p{
   margin: 20px 0;
 }
 
-.ImagenClientes img {
+.ImagenClientes {
   max-width: 30%;
   height: auto; 
   margin: 10px; 
@@ -267,7 +267,7 @@ p{
 }
 
 @media (max-width: 768px) {
-  .ImagenClientes img {
+  .ImagenClientes {
       max-width: 100%; 
   }
 }
