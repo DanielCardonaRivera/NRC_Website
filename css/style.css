@@ -249,7 +249,7 @@ p{
 }
 /*Estilos para imágenes de clientes*/
 
-.imagenClientes {
+.imagenClientes img {
   display: flex; 
   justify-content: center;
   flex-wrap: wrap;
