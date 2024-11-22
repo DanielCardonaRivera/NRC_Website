@@ -235,14 +235,19 @@ h3 {
 }
 /*Estilos para la sección de clientes*/
 .pagina6{
-  /*display: flex; 
-  justify-content: center; 
-  flex-wrap: wrap; 
-  margin: 20px 0; */
-
+  
   padding: 20px; 
   background-color: #f9f9f9; 
-  text-align: center; 
+  text-align: center;
+
+
+    h2{
+      font-family: "Tangerine", cursive;
+    }
+    h3 {
+      font-size: 32px; 
+      margin-bottom: 20px; 
+      font-family: "Questrial", sans-serif;} 
 
 p{
   font-size: 32px; 
