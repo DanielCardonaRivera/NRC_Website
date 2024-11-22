@@ -235,10 +235,14 @@ h3 {
 }
 /*Estilos para la sección de clientes*/
 .pagina6{
-  display: flex; 
+  /*display: flex; 
   justify-content: center; 
   flex-wrap: wrap; 
-  margin: 20px 0; 
+  margin: 20px 0; */
+
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  text-align: center; 
 
 p{
   font-size: 32px; 
